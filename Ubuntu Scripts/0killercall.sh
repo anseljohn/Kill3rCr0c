@@ -2,8 +2,8 @@
 
 # calls scripts from toolkit -- uncomment what you want to use
 
-# chmod 777 1killernc.sh
-# ./1killernc.sh
+# chmod 777 1killerremover.sh
+# ./1killerremover.sh
 
 # chmod 777 1killerbrowsers
 # ./1killerbrowsers
@@ -38,7 +38,7 @@
 # chmod 777 2killercommonauth.sh
 # ./2killercommonauth.sh
 
-apt-get update
-apt-get upgrade
-apt-get autoclean
-apt-get autoremove
+apt-get update -y --force-yes
+apt-get upgrade -y --force-yes
+apt-get autoclean -y --force-yes
+apt-get autoremove -y --force-yes
