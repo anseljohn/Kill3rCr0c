@@ -1,6 +1,6 @@
 #!/bin/bash
 
 ufw enable
-ufw disable incoming
-ufw enable incoming
+ufw default deny incoming
+ufw default allow incoming
 ufw logging on high

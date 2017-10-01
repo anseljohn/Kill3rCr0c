@@ -1,11 +1,11 @@
 #!/bin/bash
 
-declare -a baddies={
-  # 'netcat',
-  # 'nc',
-  # 'john',
-  # 'johntheripper'
-}
+declare -a baddies=(
+  # 'netcat'
+  # 'nc'
+  # 'john'
+  # 'johntheripper
+)
 
 for b in "${baddies[@]}"
 do
