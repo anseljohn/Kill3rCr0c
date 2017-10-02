@@ -1,7 +1,6 @@
 # Kill3rCr0c
 Don't use my script bro... just don't
-
-This toolkit is dedicated to the CyberPatriot competitions.
+.
 Currently I have only Ubuntu scripts but I will have powershell sooner or later.
 
 Scripts are number coded...:
