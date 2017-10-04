@@ -1,13 +1,15 @@
 #!/bin/bash
 
 declare -a baddies=(
-  # 'netcat'
-  # 'nc'
-  # 'john'
-  # 'johntheripper
+    # 'netcat'
+    # 'nc'
+    # 'netcat-openbsd'
+    # 'john'
+    # 'johntheripper
 )
 
 for b in "${baddies[@]}"
 do
-  apt-get purge $b
+    apt-get purge $b
+    apt-get purge --auto-remove $b
 done

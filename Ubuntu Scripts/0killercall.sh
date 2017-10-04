@@ -2,6 +2,18 @@
 
 # calls scripts from toolkit -- uncomment what you want to use
 
+
+
+
+#####################################################
+##                                                 ##
+##               CHECK KILLERREMOVER               ##
+##                                                 ##
+#####################################################
+
+
+
+
 # chmod 777 1killerremover.sh
 # ./1killerremover.sh
 
