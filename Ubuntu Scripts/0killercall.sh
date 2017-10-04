@@ -26,6 +26,9 @@
 # chmod 777 2killerssh.sh
 # ./2killerssh.sh
 
+# chmod 777 2killerftp.sh
+# ./2killerftp.sh
+
 # chmod 777 2killerlightdm.sh
 # ./2killerligthdm.sh
 
