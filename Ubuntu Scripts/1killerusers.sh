@@ -14,7 +14,7 @@ function prompt {
   do
     read -p "Remove $names? [Yy/Nn]  " -r yn
     case $yn in
-      [Yy]* ) userdel $names; rm -rf /etc/$names;;
+      [Yy]* ) echo userdel $names && rm -rf /home/$names;;
       [Nn]* ) ;;
       * ) echo "Please enter Yes or No"; prompt;;
     esac
