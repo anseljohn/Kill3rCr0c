@@ -60,3 +60,5 @@ apt-get update -y --force-yes
 apt-get upgrade -y --force-yes
 apt-get autoclean -y --force-yes
 apt-get autoremove -y --force-yes
+apt-get update -y --force-yes
+apt-get upgrade -y --force-yes
