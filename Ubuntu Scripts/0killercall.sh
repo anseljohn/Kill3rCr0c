@@ -14,44 +14,47 @@
 
 
 
-# chmod 777 1killerremover.sh
-# ./1killerremover.sh
+# chmod 777 1-remover.sh
+# ./1-remover.sh
 
-# chmod 777 1killerbrowsers
-# ./1killerbrowsers
+# chmod 777 1-browsers
+# ./1-browsers
 
-# chmod 777 1killerrootkits.sh
-# ./1killerrootkits.sh
+# chmod 777 1-rootkits.sh
+# ./1-rootkits.sh
 
-# chmod 777 1killergufw.sh
-# ./1killergufw.sh
+# chmod 777 1-gufw.sh
+# ./1-gufw.sh
 
-# chmod 777 1killerbum.sh
-# ./1killerbum.sh
+# chmod 777 1-bum.sh
+# ./1-bum.sh
 
-# chmod 777 1killerauditd.sh
-# ./1killerauditd.sh
+# chmod 777 1-auditd.sh
+# ./1-auditd.sh
 
-# chmod 777 2killerfirewall.sh
-# ./2killerfirewall.sh
+# chmod 777 2-firewall.sh
+# ./2-firewall.sh
 
-# chmod 777 2killerssh.sh
-# ./2killerssh.sh
+# chmod 777 2-ssh.sh
+# ./2-ssh.sh
 
-# chmod 777 2killerftp.sh
-# ./2killerftp.sh
+# chmod 777 2-ftp.sh
+# ./2-ftp.sh
 
-# chmod 777 2killerlightdm.sh
-# ./2killerligthdm.sh
+# chmod 777 2-lightdm.sh
+# ./2-ligthdm.sh
 
-# chmod 777 2killerpasswd.sh
-# ./2killerpasswd.sh
+# chmod 777 2-ipv4warding.sh
+# ./2-ipv4warding.sh
 
-# chmod 777 2killerlogindefs.sh
-# ./2killerlogindefs.sh
+# chmod 777 2-passwd.sh
+# ./2-passwd.sh
 
-# chmod 777 2killercommonauth.sh
-# ./2killercommonauth.sh
+# chmod 777 2-logindefs.sh
+# ./2-logindefs.sh
+
+# chmod 777 2-commonauth.sh
+# ./2-commonauth.sh
 
 apt-get update -y --force-yes
 apt-get upgrade -y --force-yes
