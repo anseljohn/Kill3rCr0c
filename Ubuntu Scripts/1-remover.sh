@@ -7,7 +7,9 @@ declare -a baddies=(
     'john'
     'johntheripper'
     'samba'
-    'nmap'
+
+    #'apache'
+    #'nmap'
 )
 
 for b in "${baddies[@]}"
