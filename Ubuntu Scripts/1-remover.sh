@@ -7,6 +7,8 @@ declare -a baddies=(
     'john'
     'johntheripper'
     'samba'
+    'hydra'
+    'hydra-gtk'
 
     #'apache'
     #'nmap'
