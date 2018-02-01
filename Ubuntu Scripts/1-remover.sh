@@ -6,12 +6,12 @@ declare -a baddies=(
     'netcat-openbsd'
     'john'
     'johntheripper'
-    'samba'
     'hydra'
     'hydra-gtk'
 
     #'apache'
     #'nmap'
+    #'samba'
 )
 
 for b in "${baddies[@]}"
