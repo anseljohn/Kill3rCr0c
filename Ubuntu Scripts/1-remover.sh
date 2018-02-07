@@ -2,7 +2,7 @@
 
 declare -a baddies=(
     'netcat'
-    'nc'
+    'nc'q
     'netcat-openbsd'
     'john'
     'johntheripper'
