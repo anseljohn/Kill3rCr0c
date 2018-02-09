@@ -39,6 +39,10 @@
 # ./1-auditd.sh
 
 #TESTED
+# chmod 777 1-addusers.sh
+# ./1-addusers.sh
+
+#TESTED
 # chmod 777 2-firewall.sh
 # ./2-firewall.sh
 
