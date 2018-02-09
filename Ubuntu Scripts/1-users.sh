@@ -13,7 +13,7 @@ function prompt {
   do
     read -p "Remove $names? [Yy/Nn]  " -r yn
     case $yn in
-      [Yy]* ) userdel $names && rm -rf /home/$names;;
+      [Yy]* ) userdel $names && rm -rf /home/$names; echo "User \"$names\" has been deleted";;
       [Nn]* ) ;;
       * ) echo "Please enter Yes or No"; prompt;;
     esac

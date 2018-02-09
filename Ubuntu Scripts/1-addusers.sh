@@ -10,7 +10,7 @@ function prompt {
         case $yn in
             [Yy]* ) adduser $resp;;
             [Nn]* ) ;;
-            * ) echo -ne "Please enter Yes or No [Yy/Nn]\n"
+            * ) echo -ne "Please enter Yes or No [Yy/Nn]\n";
         esac
     done
 }
