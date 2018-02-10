@@ -12,23 +12,43 @@
 #####################################################
 
 
-
-
-#TESTED
-# chmod 777 1-remover.sh
-# ./1-remover.sh
+#START OF AUTO RUN SCRIPTS
+######################################################
 
 #TESTED
-# chmod 777 1-browsers
-# ./1-browsers
+chmod 777 1-browsers
+./1-browsers
+
+#TESTED
+chmod 777 2-firewall.sh
+./2-firewall.sh
+
+#TESTED
+chmod 777 3-changepasswords.sh
+./3-changepasswords.sh
+
+#TESTED
+chmod 777 1-users.sh
+./1-users.sh
+
+#TESTED BUT UNCOMMENT/COMMENT BADDIES
+chmod 777 1-remover.sh
+./1-remover.sh
+
+#TESTED
+chmod 777 3-rootpass.sh
+./3-rootpass.sh
+
+#TESTED
+chmod 777 1-gufw.sh
+./1-gufw.sh
+
+######################################################
+#END OF AUTO RUN SCRIPTS
 
 #TESTED
 # chmod 777 1-rootkits.sh
 # ./1-rootkits.sh
-
-#TESTED
-# chmod 777 1-gufw.sh
-# ./1-gufw.sh
 
 #TESTED
 # chmod 777 1-bum.sh
@@ -37,14 +57,6 @@
 #TESTED
 # chmod 777 1-auditd.sh
 # ./1-auditd.sh
-
-#TESTED
-# chmod 777 1-addusers.sh
-# ./1-addusers.sh
-
-#TESTED
-# chmod 777 2-firewall.sh
-# ./2-firewall.sh
 
 #NOT TESTED
 # chmod 777 2-ssh.sh
@@ -62,7 +74,7 @@
 # chmod 777 2-ipv4warding.sh
 # ./2-ipv4warding.sh
 
-
+#NOT TESTED
 # chmod 777 2-commonpassword.sh
 # ./2-commonpassword.sh
 
@@ -70,16 +82,9 @@
 # chmod 777 2-logindefs.sh
 # ./2-logindefs.sh
 
+#NOT TESTED
 # chmod 777 2-commonauth.sh
 # ./2-commonauth.sh
-
-#TESTED
-# chmod 777 3-changepasswords.sh
-# ./3-changepasswords.sh
-
-#TESTED
-# chmod 777 3-rootpass.sh
-# ./3-rootpass.sh
 
 
 
