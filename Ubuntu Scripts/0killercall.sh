@@ -63,12 +63,12 @@ chmod 777 1-auditd.sh
 chmod 777 2-ssh.sh
 ./2-ssh.sh
 
+#TESTED
+chmod 777 2-ftp.sh
+./2-ftp.sh
+
 ######################################################
 #END OF AUTO RUN SCRIPTS
-
-#TESTED
-# chmod 777 2-ftp.sh
-# ./2-ftp.sh
 
 #TESTED
 # chmod 777 2-lightdm.sh
