@@ -47,12 +47,12 @@ chmod 777 1-gufw.sh
 chmod 777 2-logindefs.sh
 ./2-logindefs.sh
 
+#TESTED
+chmod 777 1-verification.sh
+./1-verification.sh
+
 ######################################################
 #END OF AUTO RUN SCRIPTS
-
-#TESTED
-# chmod 777 1-rootkits.sh
-# ./1-rootkits.sh
 
 #TESTED
 # chmod 777 1-bum.sh
