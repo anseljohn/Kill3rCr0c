@@ -9,7 +9,7 @@ apt-get install debsums -y --force-yes
 mapfile -t re < <(dpkg-query -S $(sudo debsums -c 2>&1 | sed -e "s/.*file \(.*\) (.*/\1/g") | cut -d: -f1 | sort -u)
 for r in "${re[@]}"
 do
-    apt-get install --reinstall $r
+    apt-get install --reinstall $r -y --force-yes
 done
 
 apt-get install chkrootkit -y --force-yes

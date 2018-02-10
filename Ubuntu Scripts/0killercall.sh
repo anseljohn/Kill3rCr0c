@@ -51,12 +51,12 @@ chmod 777 2-logindefs.sh
 chmod 777 1-verification.sh
 ./1-verification.sh
 
+#TESTED
+chmod 777 1-bum.sh
+./1-bum.sh
+
 ######################################################
 #END OF AUTO RUN SCRIPTS
-
-#TESTED
-# chmod 777 1-bum.sh
-# ./1-bum.sh
 
 #TESTED
 # chmod 777 1-auditd.sh
