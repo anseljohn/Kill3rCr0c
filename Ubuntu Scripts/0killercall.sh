@@ -71,12 +71,12 @@ chmod 777 2-ftp.sh
 chmod 777 2-lightdm.sh
 ./2-ligthdm.sh
 
+#TESTED
+chmod 777 2-ipv4warding.sh
+./2-ipv4warding.sh
+
 ######################################################
 #END OF AUTO RUN SCRIPTS
-
-#TESTED
-# chmod 777 2-ipv4warding.sh
-# ./2-ipv4warding.sh
 
 #NOT TESTED
 # chmod 777 2-commonpassword.sh
