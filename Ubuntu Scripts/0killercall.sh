@@ -55,16 +55,16 @@ chmod 777 1-verification.sh
 chmod 777 1-bum.sh
 ./1-bum.sh
 
-######################################################
-#END OF AUTO RUN SCRIPTS
-
 #TESTED
-# chmod 777 1-auditd.sh
-# ./1-auditd.sh
+chmod 777 1-auditd.sh
+./1-auditd.sh
 
 #NOT TESTED
-# chmod 777 2-ssh.sh
-# ./2-ssh.sh
+chmod 777 2-ssh.sh
+./2-ssh.sh
+
+######################################################
+#END OF AUTO RUN SCRIPTS
 
 #TESTED
 # chmod 777 2-ftp.sh
