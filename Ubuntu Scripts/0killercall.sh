@@ -43,6 +43,10 @@ chmod 777 3-rootpass.sh
 chmod 777 1-gufw.sh
 ./1-gufw.sh
 
+#TESTED
+chmod 777 2-logindefs.sh
+./2-logindefs.sh
+
 ######################################################
 #END OF AUTO RUN SCRIPTS
 
@@ -77,10 +81,6 @@ chmod 777 1-gufw.sh
 #NOT TESTED
 # chmod 777 2-commonpassword.sh
 # ./2-commonpassword.sh
-
-#TESTED
-# chmod 777 2-logindefs.sh
-# ./2-logindefs.sh
 
 #NOT TESTED
 # chmod 777 2-commonauth.sh
