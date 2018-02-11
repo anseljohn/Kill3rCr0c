@@ -75,11 +75,11 @@ chmod 777 2-lightdm.sh
 chmod 777 2-ipv4warding.sh
 ./2-ipv4warding.sh
 
-#NOT TESTED
+#TESTED
 chmod 777 2-commonpassword.sh
 ./2-commonpassword.sh
 
-#NOT TESTED
+#TESTED
 chmod 777 2-commonauth.sh
 ./2-commonauth.sh
 
