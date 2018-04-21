@@ -1,5 +1,5 @@
 # Kill3rCr0c
-Don't use my script bro... just don't
+It is advised not to use this script until all have been tested.
 .
 Currently I have only Ubuntu scripts but I will have powershell sooner or later.
 
