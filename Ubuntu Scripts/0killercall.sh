@@ -80,8 +80,8 @@ chmod 777 2-commonpassword.sh
 ./2-commonpassword.sh
 
 #TESTED
-chmod 777 2-commonauth.sh
-./2-commonauth.sh
+# chmod 777 2-commonauth.sh
+# ./2-commonauth.sh
 
 ######################################################
 #END OF AUTO RUN SCRIPTS
