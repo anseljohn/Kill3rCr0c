@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Parses through users.txt and admins.txt changing all passwords of ONLY NON-ADMIN users
 for names in $(cat < "users.txt"); do
    isAdmin=false
    doIFS=$'\n'
