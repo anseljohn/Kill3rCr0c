@@ -1,4 +1,8 @@
 #!/bin/bash
+#TO-DO: Change into three methods: 
+# 1) parse through users.txt, check if user exists, if not, add
+# 2) parse through users, check if is in users.txt, if not, remove
+# 3) parse through users, check if admin and is not in admins.txt, if admin and not in admins.txt, remove
 
 l=$(grep "^UID_MIN" /etc/login.defs)
 l1=$(grep "^UID_MAX" /etc/login.defs)
