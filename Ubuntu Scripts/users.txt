@@ -3,3 +3,5 @@ squid
 sponge
 new
 newAdmin
+standard
+anotherAdmin
