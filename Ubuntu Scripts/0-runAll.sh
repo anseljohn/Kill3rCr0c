@@ -28,8 +28,11 @@
 
 ./2-logindefs.sh
 
+# 
 ./2-ssh.sh
 
+# TESTED
 ./3-changepasswords.sh
 
+# TESTED
 ./3-rootpass.sh
