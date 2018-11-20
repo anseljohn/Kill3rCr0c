@@ -22,13 +22,16 @@
 
 ./2-ftp.sh
 
+# TESTED
 ./2-ipv4warding.sh
 
+# TESTED
 ./2-lightdm.sh
 
+# TESTED
 ./2-logindefs.sh
 
-# 
+# TESTED
 ./2-ssh.sh
 
 # TESTED
