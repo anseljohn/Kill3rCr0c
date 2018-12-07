@@ -22,10 +22,10 @@
 ./1-verification.sh
 
 # TESTED - DO MANUALLY
-./2-commonauth.sh
+# ./2-commonauth.sh
 
 # TESTED - DO MANUALLY
-./2-commonpassword.sh
+# ./2-commonpassword.sh
 
 # TESTED
 ./2-firewall.sh
