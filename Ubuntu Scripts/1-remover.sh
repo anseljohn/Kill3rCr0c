@@ -9,9 +9,9 @@ declare -a baddies=(
     'hydra'
     'hydra-gtk'
 
-    #'apache'
-    #'nmap'
-    #'samba'
+    'apache'
+    'nmap'
+    'samba'
 )
 
 for b in "${baddies[@]}"
