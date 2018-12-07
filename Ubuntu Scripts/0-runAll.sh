@@ -20,7 +20,7 @@
 
 ./2-firewall.sh
 
-# TESTED
+# TESTEDsss
 ./2-ftp.sh
 
 # TESTED
